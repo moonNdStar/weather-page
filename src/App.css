@@ -1,0 +1,525 @@
+.top-of-blue{
+  background-color: rgba(9, 0, 108, 0.756);
+}
+
+.opaque-big{
+  background-color: rgb(203, 216, 251);
+  padding-top: 30px;
+}
+
+#plus-icon{
+  width: 24px;
+}
+
+#toggle-icon{
+  width: 30px;
+margin-left: 3px;
+}
+
+.top-of-blue{
+  padding-top: 30px;
+}
+
+#minus-btn{
+  width: 20px;
+  height: 30px;
+}
+
+#circle-btn{
+  width: 8px;
+  margin-left: 5px;
+}
+
+#celcius-btn{
+  width: 9.5px;
+}
+
+#fahrenheit-btn{
+  width: 14px;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.right-item {
+  order: 3;
+}
+
+.middle-item {
+  order: 2;
+}
+
+.left-item {
+  order: 1;
+}
+
+.temp-container{
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#navigation-btn{
+  width: 20px;
+
+}
+
+#sunrise-btn{
+  width: 20px;
+}
+
+#sunset-btn{
+  width: 20px;
+}
+
+.upper-div,
+.lower-div {
+  display: flex;
+  align-items: center;
+}
+
+.upper-div p{
+  padding-top: 16px;
+  padding-left: 10px;
+  font-family: 'Nunito', sans-serif;
+  color: aliceblue;
+}
+
+.lower-div p{
+  font-family: 'Nunito', sana-serif;
+  color: aliceblue;
+}
+
+.sunrise-time,.sunset-time{
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.usa-div,.rise-time,.set-time{
+  font-family: 'Nunito', sans-serif;
+}
+
+.set-time{
+  padding-left: 10px;
+  padding-top: 16px;
+}
+.temperature-display{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.temperature-display p{
+  padding-top: 15px;
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+  font-size: 90px;
+  color: white;
+}
+
+#left-btn{
+  width: 20px;
+  margin-right: 40px;
+}
+#right-btn{
+  margin-left: 40px;
+  width: 20px;
+}
+
+#sun{
+  width: 20px;
+}
+
+.sunny-ctn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -40px;
+}
+.sunny-ctn p{
+color: white;
+padding-top: 14px;
+
+
+font-family: 'Nunito', sans-serif;
+
+font-size: 20px;
+padding-left: 9px;
+}
+
+#girl{
+  width: 350px;
+  height: 500px;
+}
+
+.girl-ctn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#three-dots{
+  width: 20px;
+}
+
+#isabella-img{
+  width: 50px;
+  border-radius: 10px;
+}
+
+.header-img-wrapper{
+
+  display: flex;
+  flex-direction: row;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.header-ctn p{
+  font-family: 'Open Sans', sans-serif;
+}
+.welcome-isabella{
+  font-size: 20px;
+}
+
+.check-text{
+  margin-top: -12px;
+  font-size: 15px;
+}
+
+.header-ctn {
+  flex: 1;
+}
+
+.img-of-girl {
+  margin-left: auto;
+}
+
+.header-ctn {
+  text-align: left;
+}
+
+.img-of-girl {
+  text-align: right;
+}
+
+#three-dots {
+  margin-right: 10px; /* Adjust the margin as needed */
+}
+
+.chart-container{
+  margin-left: 15px;
+  margin-right: 15px;
+  background-color: white;
+  border-radius: 30px;
+}
+
+#down-arrow-icon{
+  width: 12px;
+}
+
+.two-btn{
+  display: flex;
+  justify-content: flex-end;
+}
+.rain-btn{
+  white-space: nowrap;
+  display: flex;
+  background-color: antiquewhite;
+  align-items: center;
+  border-radius: 18px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-right: 20px;
+}
+
+.rain-btn p{
+  padding-top: 6px;
+  margin-bottom: 6px;
+}
+
+.rain-btn p,img{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.rain-btn img{
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+#right-arrow-2-icon{
+  width: 12px;
+}
+.upcoming-btn{
+  font-weight: bold;
+  font-size: large;
+}
+.next-days{
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  background-color: aquamarine;
+  border-radius: 18px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.next-days p{
+  padding-top: 6px;
+  margin-bottom: 6px;
+  margin-right: 3px;
+}
+.next-days img{
+  margin-left: 1px;
+  margin-top: 3px;
+}
+.next-days p,img{
+  display: inline-block;
+  vertical-align: middle;
+}
+.upper-label {
+  padding-top: 25px;
+  padding-left: 30px;
+  padding-right: 30px;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+.graph-ctn {
+
+  height: 150px; /* Set the desired height */
+  width: 100%;
+  padding-left: 20px;
+  border-radius: 30px;
+  padding-right: 20px;
+  flex-grow: 1;
+}
+
+.x-axis-top, .temp-graph, .img-of-sun-cloud{
+  display: flex;
+  padding-left: 20px;
+  padding-right: 20px;
+  justify-content: space-between;
+}
+
+.x-axis-top p{
+  margin: 0;
+}
+
+.temp-graph p{
+  margin: 0;
+}
+.img-of-sun-cloud img{
+  margin: 0
+}
+#full-sun{
+  width: 20px;
+}
+#cloud{
+  width: 20px;
+}
+
+.humidity-ctn, .wind-ctn, .precipitation-ctn,.wind-ctn-1{
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 20px;
+}
+
+.containers{
+   padding-top: 40px;
+   padding-left: 10px;
+   
+}
+
+#humidity-icon, #wind-icon{
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  width:30px;
+  border-radius: 10px;
+  padding-top: -10px;
+  background-color: rgba(9, 0, 108, 0.756);
+margin-left: auto;
+position: relative;
+  top: -10px;
+}
+
+.upper-label {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.two-btn {
+  display: flex;
+  gap: 10px; /* Adjust the gap size as needed */
+  align-items: center;
+}
+.longest-bar
+
+{
+  width: 100%; /* Set the width to 100% of the container */
+  height: auto; /* Maintain the aspect ratio */
+}
+.rain-btn {
+  white-space: nowrap;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .rain-btn {
+    flex-basis: 100%; /* Forces the rain-btn to occupy the full width */
+   /*  margin-bottom: 10px; */ /* Adds spacing between rain-btn and next-days */
+
+
+  }
+  .two-btn{
+    margin-left: -10px;
+   }
+  .x-axis-top p{
+    font-size: 11px;
+    padding-bottom: 5px;
+  }
+  .temp-graph p{
+    padding-top: 5px;
+    font-size: 15px;
+  }
+}
+
+#precipitation-icon{
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  width:30px;
+  border-radius: 10px;
+  
+  background-color: rgba(9, 0, 108, 0.756);
+margin-left: auto;
+position: relative;
+  
+}
+.first-humidity-line, .wind-first-line, .precipitation-first-line {
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+}
+
+.humidity-text {
+  margin-right: 10px;
+  padding-top: 0px;
+}
+
+.second-humidity-icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -8px;
+}
+
+.humidity-ctn, .wind-ctn, .precipitation-ctn{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  margin-left: 10px;
+margin-right: 10px;
+  padding-right: 30px;
+  border-radius: 40px;
+}
+
+.wind-ctn-1{
+  padding-top: 20px;
+
+  padding-left: 30px;
+  margin-left: 10px;
+margin-right: 10px;
+  padding-right: 30px;
+  border-radius: 40px;
+}
+
+.percent-82{
+  font-size: 30px;
+}
+
+.gnb {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -8px;
+}
+
+.precipitation-num{
+  display: flex;
+  margin-top: -8px;
+  justify-content: space-between;
+}
+.rec3-images{
+  display: flex;
+  justify-content: space-between;
+  margin-top: -13px;
+}
+.precipitation-num p{
+  font-size: 15px;
+  color: gray;
+
+}
+
+.rec1-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -13px;
+}
+
+
+.good,.normal,.bad{
+  font-size: 14px;
+  color: gray;
+}
+
+.normal{
+  position: relative;
+  left: -9px;
+}
+
+.bad{
+  position: relative;
+  left: -30px;
+}
+.cm{
+  margin-top: -8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+
+
+#speed-icon{
+  width: 200px;
+  margin-top: -30px;
+  height: 100px;
+}
+
+.speed-icon-div{
+  display: flex;
+  justify-content: center;
+}
+
+.wind-para{
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: -10px;
+ margin-top: -20px;
+  left: -5px;
+  font-size: 25px;
+}
