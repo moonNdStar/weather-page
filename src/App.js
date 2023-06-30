@@ -330,7 +330,7 @@ function App() {
                   </Col>
                   
                 </Row>
-                <Row className="containers">
+                <Row className="containers-2">
                   <Col sm>
                     <div className="humidity-ctn">
                       <div className="first-humidity-line">

@@ -156,7 +156,7 @@ padding-left: 9px;
 
 #girl{
   width: 350px;
-  height: 500px;
+  height: 400px;
 }
 
 .girl-ctn{
@@ -334,10 +334,16 @@ padding-left: 9px;
 
 .containers{
    padding-top: 40px;
-   padding-left: 10px;
    
 }
-
+.gnb p{
+  color: gray;
+  font-size: 15px;
+}
+.containers-2{
+  padding-top: 20px;
+  padding-left: 10px;
+}
 #humidity-icon, #wind-icon{
   padding-top: 5px;
   padding-left: 5px;
