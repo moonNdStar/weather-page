@@ -253,7 +253,7 @@ function App() {
                     />
                   </div>
                 </div>
-
+<div className="more-details"><p>More details of today's weather</p></div>
                 <Row className="containers">
                   <Col sm>
                     <div className="humidity-ctn">
